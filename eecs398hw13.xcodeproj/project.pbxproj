@@ -13,6 +13,7 @@
 		F816E17F207ED67800AC5274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F816E17D207ED67800AC5274 /* Main.storyboard */; };
 		F816E18A207ED67800AC5274 /* eecs398hw13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816E189207ED67800AC5274 /* eecs398hw13Tests.swift */; };
 		F816E195207ED67800AC5274 /* eecs398hw13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816E194207ED67800AC5274 /* eecs398hw13UITests.swift */; };
+		F816E1A3207ED73300AC5274 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F816E1A2207ED73300AC5274 /* PreferencePanes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F816E190207ED67800AC5274 /* eecs398hw13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eecs398hw13UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F816E194207ED67800AC5274 /* eecs398hw13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eecs398hw13UITests.swift; sourceTree = "<group>"; };
 		F816E196207ED67800AC5274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F816E1A2207ED73300AC5274 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F816E1A3207ED73300AC5274 /* PreferencePanes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +78,7 @@
 		F816E16B207ED67800AC5274 = {
 			isa = PBXGroup;
 			children = (
+				F816E1A2207ED73300AC5274 /* PreferencePanes.framework */,
 				F816E176207ED67800AC5274 /* eecs398hw13 */,
 				F816E188207ED67800AC5274 /* eecs398hw13Tests */,
 				F816E193207ED67800AC5274 /* eecs398hw13UITests */,
